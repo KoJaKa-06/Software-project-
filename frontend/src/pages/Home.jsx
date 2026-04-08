@@ -121,7 +121,10 @@ export default function Home() {
                           <span style={{ fontSize: '0.75rem', color: '#94a3b8' }}>{timeAgo(r.created_at)}</span>
                         </div>
                       </div>
-                      <span className={`badge badge-resolution ${r.resolution.replace(/ /g, '-')}`}>{r.resolution}</span>
+                      <div className="report-badges">
+                        <span className={`badge badge-resolution ${r.resolution.replace(/ /g, '-')}`}>{r.resolution}</span>
+                        {r.urgency && <span className={`badge badge-urgency ${r.urgency}`}>{r.urgency}</span>}
+                      </div>
                     </div>
                     {selected && latestPublicNote(r) && (
                       <div className="note fade-in" style={{ marginTop: '0.5rem', padding: '0.5rem 0.75rem', background: '#f8fafc', borderRadius: '6px', borderLeft: '3px solid #0d9488', fontSize: '0.8rem' }}>
