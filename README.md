@@ -5,6 +5,37 @@ An environmental reporting and monitoring platform built for the Ifrane region. 
 
 ---
 
+## Screenshots
+
+### Public Home Page
+![Home Page](docs/screenshots/01-home.png)
+
+### Home Page — Expanded Report
+![Home Expanded](docs/screenshots/02-home-expanded.png)
+
+### Submit Report — Guest Submission with Map Picker
+![Submit Report](docs/screenshots/03-submit-report.png)
+
+### Track Report — Lookup by CIN & Reference
+![Track Report](docs/screenshots/04-track-report.png)
+
+### Track Report — Result View
+![Track Result](docs/screenshots/05-track-result.png)
+
+### Authority Login
+![Authority Login](docs/screenshots/06-authority-login.png)
+
+### Authority Dashboard — Stats, Map, Filters
+![Dashboard](docs/screenshots/07-dashboard.png)
+
+### Authority Dashboard — Reports Table
+![Dashboard Table](docs/screenshots/08-dashboard-table.png)
+
+### Report Detail — Review Controls, Notes, Activity Log
+![Report Detail](docs/screenshots/09-report-detail.png)
+
+---
+
 ## Demo Credentials
 
 | Role | Email | Password |
