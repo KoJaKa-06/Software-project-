@@ -30,6 +30,15 @@ def seed():
     db.add(officer)
     db.flush()
 
+    officer2 = AuthorityOfficer(
+        email="b.fatouh@aui.ma",
+        hashed_password=bcrypt.hashpw(b"badr2006", bcrypt.gensalt()).decode(),
+        name="badr",
+        role="officer",
+    )
+    db.add(officer2)
+    db.flush()
+
     now = datetime.utcnow()
     reports_data = [
         dict(reference="ECO-1001", cin="A123456", category="Wildfire", location="Ain Vittel",
